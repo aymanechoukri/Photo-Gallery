@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery Morocco</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">PhotoGallery MR</div>
+            <button class="mobile-menu-btn">☰</button>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Discover Beautiful Photography Morocco</h1>
+        <p>Explore our curated collection of stunning images from Morocco</p>
+        <a href="#gallery" class="btn">View Gallery</a>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <h2>Our Gallery</h2>
+        <div class="gallery-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="safi">Safi</button>
+            <button class="filter-btn" data-filter="marrakech">Marrakech</button>
+            <button class="filter-btn" data-filter="essaouira">Essaouira</button>
+        </div>
+        <div class="gallery-grid">
+            <!-- Gallery Item 1 -->
+            <div class="gallery-item" data-category="safi">
+                <img src="Safi - Fan-au-Maroc.jpg" alt="city safi">
+                <div class="gallery-item-info">
+                    <h3>Tajine Safi</h3>
+                    <p>Beautiful dish from Safi, Morocco</p>
+                </div>
+            </div>
+            
+            <!-- Gallery Item 2 -->
+            <div class="gallery-item" data-category="marrakech">
+                <img src="b3d77927-0338-4f78-a0c6-4632f31a9aee.jpg" alt="Modern city marrakech at dusk with illuminated skyscrapers">
+                <div class="gallery-item-info">
+                    <h3>Jama3 Fna</h3>
+                    <p>A city that never sleeps, Marrakesh is waiting to enchant you! ✈️🌍</p>
+                </div>
+            </div>
+            
+            <!-- Gallery Item 3 -->
+            <div class="gallery-item" data-category="essaouira">
+                <img src="téléchargement.jpg" alt="Essaouira beach with waves crashing on the shore and seagulls flying overhead">
+                <div class="gallery-item-info">
+                    <h3>City Essaouira</h3>
+                    <p>Essaouira, a coastal gem, offers stunning views and a rich cultural heritage.</p>
+                </div>
+            </div>
+            
+            <!-- Gallery Item 4 -->
+            <div class="gallery-item" data-category="safi">
+                <img src="a68b5726-fa30-4a04-991b-f9d045156ef6.jpg" alt="Serene lake surrounded by forest with mountains in the background">
+                <div class="gallery-item-info">
+                    <h3>Beach Safi</h3>
+                    <p>Tranquil beach in Safi, Morocco</p>
+                </div>
+            </div>
+            
+            <!-- Gallery Item 5 -->
+            <div class="gallery-item" data-category="marrakech">
+                <img src="📍 Marrakech.jpg" alt="Historic marrakech street with cobblestones and colorful buildings">
+                <div class="gallery-item-info">
+                    <h3>Some Traditional Street</h3>
+                    <p>These charming alleyways are a glimpse into the rich history of Marrakech.</p>
+                </div>
+            </div>
+            
+            <!-- Gallery Item 6 -->
+            <div class="gallery-item" data-category="essaouira">
+                <img src="Taking in the beauty of Essaouira from every angle….jpg" alt="Essaouira beach with waves crashing on the shore and seagulls flying overhead">
+                <div class="gallery-item-info">
+                    <h3>Marssa Essaouira</h3>
+                    <p>Essaouira's beaches are a paradise for surfers and sunbathers alike.</p>
+                </div>
+            </div>
+
+             <!-- Gallery Item 7 -->
+            <div class="gallery-item" data-category="safi">
+                <img src="pottery.jpg" alt="Serene lake surrounded by forest with mountains in the background">
+                <div class="gallery-item-info">
+                    <h3>Fakhar Safi</h3>
+                    <p>Beautiful pottery from Safi, Morocco</p>
+                </div>
+            </div>
+             <!-- Gallery Item 8 -->
+            <div class="gallery-item" data-category="marrakech">
+                <img src="طريقة تحضير الطنجية المراكشية المغربية.jpg" alt="الطنجة المراكشية ">
+                <div class="gallery-item-info">
+                    <h3>Tanjia Marrakech</h3>
+                    <p>This eat dish is a traditional Moroccan recipe that has been passed down through generations.</p>
+                </div>
+            </div>
+               <!-- Gallery Item 9 -->
+            <div class="gallery-item" data-category="essaouira">
+                <img src="71882136-65cc-4268-8705-e0c7e89b61ca.jpg" alt="view of Essaouira beach with waves crashing on the shore and seagulls flying overhead">
+                <div class="gallery-item-info">
+                    <h3>view of Essaouira beach</h3>
+                    <p>the best view of Essaouira beach.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/57916d9e-ba9d-4567-9eb0-1cd676459f6f.png" alt="Photographer using a professional camera in a natural outdoor setting">
+            </div>
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>We are a passionate team of photographers dedicated to capturing the beauty of the world around us. Our mission is to showcase stunning visuals that inspire and evoke emotion.</p>
+                <p>With years of experience in various photography genres, we strive to deliver exceptional quality in every image we create. From breathtaking landscapes to intimate portraits, we believe in the power of visual storytelling.</p>
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Your message"></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 PhotoGallery. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Instagram">📱</a>
+                <a href="#" aria-label="Twitter">🐦</a>
+                <a href="#" aria-label="Facebook">👍</a>
+            </div>
+        </div>
+    </footer>
+    <script src="move.js"></script>
+</body>
+</html>
